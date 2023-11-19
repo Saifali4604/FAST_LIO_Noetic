@@ -18,6 +18,14 @@ sudo make install
 Use the following commands to download and compile the package.
 
 ```
+git clone https://github.com/Livox-SDK/livox_ros_driver.git ws_livox/src
+cd ws_livox
+catkin_make
+gedit ~/.bashrc
+```
+paste ```source ~/ws_livox/devel/setup.sh``` at the end line
+
+```
 cd ~/catkin_ws/src
 git clone https://github.com/Saifali4604/LIO_SAM_Noetic
 cd FAST_LIO
