@@ -27,7 +27,7 @@ paste ```source ~/ws_livox/devel/setup.sh``` at the end line
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/Saifali4604/LIO_SAM_Noetic
+git clone https://github.com/hku-mars/FAST_LIO.git
 cd FAST_LIO
 git submodule update --init
 cd ../..
