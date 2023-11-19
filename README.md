@@ -5,6 +5,7 @@
     
 ## Dependency
 **Livox-SDK Installation**
+open New terminal 
   ```
 git clone https://github.com/Livox-SDK/Livox-SDK.git
 cd Livox-SDK
