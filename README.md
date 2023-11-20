@@ -8,6 +8,7 @@
 
 open New terminal 
   ```
+cd
 git clone https://github.com/Livox-SDK/Livox-SDK.git
 cd Livox-SDK
 cd build && cmake ..
@@ -20,6 +21,7 @@ sudo make install
 Use the following commands to download and compile the package.
 
 ```
+cd
 git clone https://github.com/Livox-SDK/livox_ros_driver.git ws_livox/src
 cd ws_livox
 catkin_make
